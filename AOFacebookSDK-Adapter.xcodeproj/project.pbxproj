@@ -429,11 +429,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XNM36GWK3G;
 				INFOPLIST_FILE = "AOFacebookSDK-Adapter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aorumbayev.AOFacebookSDK-Adapter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -441,11 +444,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XNM36GWK3G;
 				INFOPLIST_FILE = "AOFacebookSDK-Adapter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aorumbayev.AOFacebookSDK-Adapter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -518,6 +524,7 @@
 				2B4F65B01EEF1C57008B23C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B4F65B11EEF1C57008B23C3 /* Build configuration list for PBXNativeTarget "AOFacebookSDK-AdapterTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +533,7 @@
 				2B4F65B31EEF1C57008B23C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B4F65B41EEF1C57008B23C3 /* Build configuration list for PBXNativeTarget "AOFacebookSDK-AdapterUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +542,7 @@
 				2B4F65B61EEF1C57008B23C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
